@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZCM_ABAP_4408</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message class 4408</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCM_ABAP_4408</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>The Carrid &quot;&amp;1&quot; and connid &quot;&amp;2&quot; don´t have data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCM_ABAP_4408</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Not found data with this plane type &quot;&amp;1&quot;</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
