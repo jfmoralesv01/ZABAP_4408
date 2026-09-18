@@ -35,12 +35,13 @@ CLASS zcx_4408_no_agency IMPLEMENTATION.
 
 
   METHOD constructor ##ADT_SUPPRESS_GENERATION.
-    super->constructor(
-    previous = previous
-    ).
+    super->constructor( previous = previous ).
+
+    me->agency_id = agency_id.
+
     CLEAR me->textid.
     IF textid IS INITIAL.
-      if_t100_message~t100key = if_t100_message=>default_textid.
+      if_t100_message~t100key = no_agency.
     ELSE.
       if_t100_message~t100key = textid.
     ENDIF.
